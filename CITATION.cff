@@ -1,0 +1,56 @@
+cff-version: 1.2.0
+title: "HERO analysis"
+message: "If you use this software, please cite both the software and the preprint."
+type: software
+authors:
+  - family-names: Dykstra
+    given-names: Christien B.
+    affiliation: "Centre for Applied Synthetic Biology, Concordia University"
+    orcid: "https://orcid.org/0000-0002-3157-5515"
+  - family-names: Bean
+    given-names: Bjorn D. M.
+    affiliation: "Centre for Applied Synthetic Biology, Concordia University"
+    orcid: "https://orcid.org/0000-0003-2409-3902"
+  - family-names: Araujo
+    given-names: Flavia
+    affiliation: "Concordia Genome Foundry, Concordia University"
+    orcid: "https://orcid.org/0009-0006-9275-5217"
+  - family-names: Martin
+    given-names: Vincent J. J.
+    affiliation: "Centre for Applied Synthetic Biology, Concordia University"
+    orcid: "https://orcid.org/0000-0001-7511-115X"
+repository-code: "https://github.com/christiendykstra/Heterologous-engineering-of-receptors-using-OrthoRep-for-directed-evolution-of-GPCRs-in-yeast"
+license: MIT
+version: 1.0.0
+date-released: "TODO"
+keywords:
+  - directed evolution
+  - OrthoRep
+  - GPCR
+  - yeast
+  - synthetic biology
+  - nanopore sequencing
+  - biosensors
+preferred-citation:
+  type: article
+  title: "Heterologous engineering of receptors using OrthoRep (HERO) for directed evolution of GPCRs in yeast"
+  authors:
+    - family-names: Dykstra
+      given-names: Christien B.
+    - family-names: Bean
+      given-names: Bjorn D. M.
+    - family-names: Rousseau
+      given-names: Olivier
+    - family-names: Araujo
+      given-names: Flavia
+    - family-names: Masoud
+      given-names: Dima
+    - family-names: Liu
+      given-names: Chang C.
+    - family-names: Whiteway
+      given-names: Malcolm
+    - family-names: Martin
+      given-names: Vincent J. J.
+  journal: "bioRxiv"
+  year: 2026
+  doi: "TODO preprint DOI"

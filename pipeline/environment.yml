@@ -1,0 +1,37 @@
+# Conda environment for the nanopore pipeline (pipeline.sh + call_mutations.py).
+# Versions are those used to produce the results in the paper.
+#
+#   conda env create -f environment.yml
+#   conda activate heroine-pipeline
+#
+# NOT installed by conda -- see pipeline/README notes:
+#   dorado 0.9.6+49e25e9   standalone binary from Oxford Nanopore
+#                          https://github.com/nanoporetech/dorado
+#   minimap2 2.24          system package (apt) on the machine used here;
+#   samtools 1.13          the conda versions below work equally well
+#
+# medaka is installed from PyPI rather than conda-forge/bioconda, and pulls
+# torch. For GPU inference install a CUDA build of torch; the CPU build works
+# but is substantially slower and gives identical consensus calls.
+
+name: heroine-pipeline
+
+channels:
+  - conda-forge
+  - bioconda
+
+dependencies:
+  - python=3.13
+  # Biopython is pinned: call_mutations.py uses Bio.pairwise2, which is
+  # deprecated and slated for removal. Later versions may drop it, and
+  # migrating to Bio.Align.PairwiseAligner can change alignments at indels.
+  - biopython=1.86
+  - bcftools=1.21
+  - htslib=1.21
+  - tabix
+  - minimap2=2.24
+  - samtools=1.13
+  - pip
+  - pip:
+      - medaka==2.2.0
+      - torch==2.10.0

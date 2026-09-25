@@ -1,0 +1,35 @@
+substitution_ranker.py run parameters
+========================================
+timestamp : 2026-09-23_13-17-37
+source    : C:\Users\Chris\Desktop\HERO\analysis_scripts\substitution_ranker\example_fig5f\input.xlsx
+gate rule : fire = FC_max ≥ 2 (fold gate)
+n_subs    : 12
+
+           input : input.xlsx
+           sheet : 0
+           concs : ('0uM', '4uM', '100uM')
+  min_occurrence : 6
+           order : sensitivity
+      include_wt : True
+      wt_pattern : WT
+            gate : threshold
+          metric : AUC_fc
+          cutoff : 35.0
+    mu_threshold : 0.08
+           value : fraction
+            cmap : magma
+            norm : power
+           gamma : 0.5
+        vmax_pct : 90.0
+           style : dot
+    dot_size_max : 1100.0
+    dot_size_min : 30.0
+            sort : enrichment
+      descending : True
+        annotate : True
+       show_pool : True
+       lane_frac : 0.9
+        out_stem : substitution_ranker
+          outdir : None
+             dpi : 300
+         formats : ['png', 'svg', 'pdf']

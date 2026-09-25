@@ -1,0 +1,29 @@
+Statistic,Group,Value
+n clones,+3AT,80
+n clones,-3AT,76
+Mean total NT/clone,+3AT,2.100
+Mean total NT/clone,-3AT,1.355
+Mean syn/clone,+3AT,1.062
+Mean syn/clone,-3AT,0.908
+Mean non-syn/clone,+3AT,1.012
+Mean non-syn/clone,-3AT,0.447
+Total syn events,+3AT,85
+Total syn events,-3AT,69
+Mann-Whitney U (syn),—,3244
+Mann-Whitney p (syn),—,0.4341
+Rank-biserial r (syn),—,-0.067
+K-S D (syn),—,0.080
+K-S p (syn),—,0.9403
+Mann-Whitney p (total),—,0.0070
+Mann-Whitney p (non-syn),—,0.0004
+dN/dS,+3AT,0.953
+dN/dS,-3AT,0.493
+"Poisson RR (syn, A/B)",—,1.170
+Poisson RR 95% CI (syn),—,"[0.853, 1.606]"
+Poisson exact p (syn),—,0.3349
+"Poisson RR (total, A/B)",—,1.550
+Poisson RR 95% CI (total),—,"[1.213, 1.979]"
+Poisson exact p (total),—,0.0004
+Fisher OR (dN/dS A vs B),—,1.934
+Fisher p (dN/dS),—,0.0116
+"Min detectable RR (syn, 80% power)",—,1.57x

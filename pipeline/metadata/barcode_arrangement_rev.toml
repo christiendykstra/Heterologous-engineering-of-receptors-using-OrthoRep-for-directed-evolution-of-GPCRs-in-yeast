@@ -1,0 +1,18 @@
+[arrangement]
+name = "rev_barcode"
+kit = "rev_barcode"
+mask1_front = "TTGGTCTCAGAAACACCTGCATACAGGAGATG"
+mask1_rear = "ACAAAATCTAGCAGAAAAACGGTAG"
+barcode1_pattern = "rev%02i"
+first_index = 49
+last_index = 68
+[scoring]
+max_barcode_penalty = 14
+barcode_end_proximity = 75
+min_barcode_penalty_dist = 2
+min_separation_only_dist = 6
+flank_left_pad = 5
+flank_right_pad = 10
+front_barcode_window = 175
+rear_barcode_window = 175
+midstrand_flank_score = 0.95

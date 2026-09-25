@@ -1,0 +1,21 @@
+# Conda environment for the figure and analysis scripts under analysis_scripts/.
+# These run independently of the sequencing pipeline (see environment.yml) and
+# were run on Windows.
+#
+#   conda env create -f environment-analysis.yml
+#   conda activate heroine-analysis
+
+name: heroine-analysis
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.13
+  - pandas
+  - numpy
+  - scipy
+  - matplotlib
+  - seaborn
+  - openpyxl
+  - statsmodels        # Poisson rate-ratio tests in mutation_comparison.py

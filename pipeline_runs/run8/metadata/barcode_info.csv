@@ -1,0 +1,3 @@
+barcode_name,context,fasta,reverse_complement,generate,label_only,hamming_distance
+fwd,GCNNNNNNNGG,7merBarcodes.fasta,FALSE,,,0
+rvs,GTNNNNNNNCAT,7merBarcodes.fasta,TRUE,,,0

@@ -1,0 +1,39 @@
+{
+  "title": "HEROINE analysis",
+  "upload_type": "software",
+  "description": "Analysis code for the HEROINE platform manuscript: a two-pass nanopore demultiplexing, consensus and mutation-calling pipeline, and the analysis scripts that generated the dose-response, mutation-spectrum, mutation-count comparison and substitution-ranking results reported in the paper. TODO: expand.",
+  "creators": [
+    {
+      "name": "Dykstra, Christien",
+      "affiliation": "Centre for Applied Synthetic Biology, Concordia University",
+      "orcid": "TODO"
+    },
+    {
+      "name": "Bean, Bjorn",
+      "affiliation": "Centre for Applied Synthetic Biology, Concordia University",
+      "orcid": "TODO"
+    },
+    {
+      "name": "Martin, Vincent",
+      "affiliation": "Centre for Applied Synthetic Biology, Concordia University",
+      "orcid": "TODO"
+    }
+  ],
+  "keywords": [
+    "directed evolution",
+    "OrthoRep",
+    "GPCR",
+    "yeast",
+    "synthetic biology",
+    "nanopore sequencing"
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "related_identifiers": [
+    {
+      "identifier": "TODO SRA accession",
+      "relation": "isSupplementTo",
+      "scheme": "other"
+    }
+  ]
+}

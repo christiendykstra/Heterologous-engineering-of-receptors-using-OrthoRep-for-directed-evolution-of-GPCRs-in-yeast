@@ -1,0 +1,45 @@
+{
+  "title": "HERO analysis: code for Heterologous engineering of receptors using OrthoRep (HERO) for directed evolution of GPCRs in yeast",
+  "upload_type": "software",
+  "description": "Analysis code for the HERO manuscript. HERO is a platform for evolving GPCRs using OrthoRep continuous directed evolution in yeast: HERO strains are passaged in the presence of agonist so that variants signalling more effectively are enriched, after which mutants are isolated and screened to identify improved signallers for use as biosensors. This repository contains the two-pass nanopore demultiplexing, consensus and mutation-calling pipeline, the per-run barcode and reference metadata for every sequencing run deposited under SRA PRJNA1533496, and the scripts that generated the dose-response, mutation-spectrum, mutation-count comparison and substitution-ranking results reported in the paper.",
+  "creators": [
+    {
+      "name": "Dykstra, Christien B.",
+      "affiliation": "Centre for Applied Synthetic Biology, Concordia University",
+      "orcid": "0000-0002-3157-5515"
+    },
+    {
+      "name": "Bean, Bjorn D. M.",
+      "affiliation": "Centre for Applied Synthetic Biology, Concordia University",
+      "orcid": "0000-0003-2409-3902"
+    },
+    {
+      "name": "Araujo, Flavia",
+      "affiliation": "Concordia Genome Foundry, Concordia University",
+      "orcid": "0009-0006-9275-5217"
+    },
+    {
+      "name": "Martin, Vincent J. J.",
+      "affiliation": "Centre for Applied Synthetic Biology, Concordia University",
+      "orcid": "0000-0001-7511-115X"
+    }
+  ],
+  "keywords": [
+    "directed evolution",
+    "OrthoRep",
+    "GPCR",
+    "yeast",
+    "synthetic biology",
+    "nanopore sequencing",
+    "biosensors"
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "related_identifiers": [
+    {
+      "identifier": "PRJNA1533496",
+      "relation": "isSupplementTo",
+      "scheme": "other"
+    }
+  ]
+}

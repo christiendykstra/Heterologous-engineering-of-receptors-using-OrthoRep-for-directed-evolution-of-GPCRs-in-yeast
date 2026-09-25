@@ -1,0 +1,47 @@
+# Raw and intermediate sequencing data — deposited in SRA, not tracked here
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bam
+*.bai
+*.sam
+*.fast5
+*.pod5
+*.hdf
+
+# Spreadsheets — excluded by default, see exceptions at the bottom
+*.xlsx
+*.xls
+*.xlsm
+
+# Pipeline and analysis outputs
+results/
+output/
+mutstats_*/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Snakemake
+.snakemake/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+
+# ---------------------------------------------------------------------------
+# Exceptions: example inputs and reference outputs SHOULD be tracked.
+# Any folder named example* anywhere in the tree is re-included.
+# ---------------------------------------------------------------------------
+!**/example*/**
