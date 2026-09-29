@@ -15,7 +15,9 @@ can be developed into biosensors.
 This repository contains the sequencing pipeline used to genotype evolved
 populations, the per-run configuration for every sequencing run in the study,
 and the analysis scripts that generated the results reported in the paper. 
-The mutational analysis is inspired by Maple from Rix _et al._ (2024).
+The mutational analysis is inspired by Maple from Rix _et al._ (2024), and 
+if you have not tried it yet for similar work, it is the recommended place 
+to start: https://doi.org/10.1126/science.adm9073
 
 Raw nanopore reads are deposited in the SRA under accession
 **PRJNA1533496**.
