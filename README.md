@@ -14,7 +14,8 @@ can be developed into biosensors.
 
 This repository contains the sequencing pipeline used to genotype evolved
 populations, the per-run configuration for every sequencing run in the study,
-and the analysis scripts that generated the results reported in the paper.
+and the analysis scripts that generated the results reported in the paper. 
+The mutationalanalysis is inspired by Maple from Rix _et al._ (2024).
 
 Raw nanopore reads are deposited in the SRA under accession
 **PRJNA1533496**.
