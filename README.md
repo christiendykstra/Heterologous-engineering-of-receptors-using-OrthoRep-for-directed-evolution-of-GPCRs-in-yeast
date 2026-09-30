@@ -4,7 +4,7 @@ Analysis code for:
 
 > **Heterologous engineering of receptors using OrthoRep (HERO) for directed evolution of GPCRs in yeast**
 > Dykstra C.B., Bean B.D.M., Rousseau O., Araujo F., Masoud D., Liu C.C., Whiteway M., Martin V.J.J.
-> *bioRxiv*, 2026. doi: TODO preprint DOI
+> *bioRxiv*, 2026. bioRxiv, 2026 (preprint); DOI to be added
 
 HERO is a platform for evolving GPCRs using OrthoRep continuous directed
 evolution in yeast. HERO strains are passaged in the presence of agonist, so
